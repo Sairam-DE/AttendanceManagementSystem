@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>.topnav {
+    background-color: blueviolet;
+    overflow: hidden;
+  }
+    h1
+  border-radius: 62px;
+background: #075a3a;
+box-shadow:  21px 21px 32px #043723,
+             -21px -21px 32px #0a7d51;
+}
+#text-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#glass-container {
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+  .topnav a {
+    float: left;
+    color: mediumseagreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: goldenrod;
+    color: whitesmoke;
+  }
+  
+  
+  .topnav a.active {
+    background-color: blanchedalmond;
+    color: #red;
+  }</style>
+  <style> 
+  {box-sizing: border-box}
+
+    
+      input[type=text], input[type=password] {
+      width: 100%;
+      padding: 20px;
+      margin: 10px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+
+    input[type=number]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+
+    }  
+    
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    
+    
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    button:hover {
+      opacity:1;
+    }
+    
+    
+    .cancelbtn {
+      padding: 14px 20px;
+      background-color: #f44336;
+    }
+    
+   
+    .cancelbtn, .signupbtn {
+      float: left;
+      width: 50%;
+    }
+    
+    .container {
+      padding: 100px;
+    }
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    @media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+      }
+    }
+    </style>
+<title>ATTENDANCE MANAGEMENT SYSTEM</title>
+</head>
+<body>
+<head><style type="text/css"></style></head>
+<divalign="center">
+  
+  <h1 align="center" style="background-color:rgb(143, 207, 132);">KIET ATTENDANCE MANAGEMENT SYSTEM </h1>
+
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="ADMIN LOGIN WINDOW.HTML">ADMIN LOGIN</a>
+    <a href="FACULTY LOGIN FORM.HTML">FACULTY LOGIN</a>
+    <a href="STUDENT LOGIN WINDOW.HTML">STUDENT LOGIN</a>
+    <a href="#apply leave">APPLY LEAVE</a>
+    <a href="#contact">CONTACT</a>
+</div>
+
+
+<body>
+
+<form action="/action_page.php" style= "border: 100px;10px solid #ccc">
+  <div class="rectangle">
+    <h1>Student Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+    <label for="name"><b>NAME</b></label>
+    <input type="text" placeholder="Enter your name" name="name" required>
+
+    <label for="BRANCH">Choose Your Branch:</label>
+
+<select name="branch" id="branch">
+  <option value="select your branch">select your branch</option>
+  <option value="ECE">ECE</option>
+  <option value="EEE">EEE</option>
+  <option value="MECH">MECH</option>
+  <option value="CIVIL">CIVIL</option>
+  
+</select>
+
+    
+
+    <label for="rollno"><b>ROLLNO</b></label>
+    <input type="alphanumeric" placeholder="enter your roll no" name="ROLL NO" required>
+
+    <label for="phone number"><b>Phone number</b></label>
+    <input type="alphanumeric" placeholder="EnteryourPhoneNumber" name="phone number" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="alphanumeric" placeholder="Enter your Email" name="Email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Confirm Password</b></label>
+    <input type="password" placeholder="confirm Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
+
+
+
+
+</body>
+</html>
